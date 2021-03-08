@@ -18,21 +18,18 @@ public class Main  {
             case "Naryn":
                 Naryn Naryn = new Naryn(15643, 5.321, "Таш-Рабат");
                 Naryn.print();
-                Naryn.getTashrabat();
 
                 return Naryn;
 
             case "Osh":
                 Osh Osh = new Osh(200000 , 13.000 , 1578 );
                 Osh.print();
-                Osh.getYear();
 
                 return Osh;
 
             case "YssykKyl":
                 YssykKyl YssykKyl = new YssykKyl(21345 , 1.2434 , 3453 );
                 YssykKyl.print();
-                YssykKyl.getVolumeOfLike();
 
                 return YssykKyl;
         }
